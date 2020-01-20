@@ -1,0 +1,30 @@
+.text_dark{
+    color: blueviolet;
+}
+.back_dark{
+    background: blueviolet;
+}
+.header_section{
+    border-bottom: 1px solid gray;
+}
+.blog_hearder{
+    font-size: 24px;
+    font-weight: bold;
+}
+.flex_auto{
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex:  0 0 auto;
+    flex: 0 0 auto;
+} 
+.card_img{
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+}
+.blog_pagination a{
+    border-radius: 20px;
+}
+@media screen and (min-width:768px){
+    .h_md_250{
+        height: 250px;
+    }
+}
